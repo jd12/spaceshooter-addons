@@ -39,7 +39,7 @@ Click the + sign next to Classes
 
 ![Classes Image](./images/classes.png)
 
-Name it `enemyLaser`
+Name it `EnemyLaser`
 
 It should look like this:
 
@@ -60,6 +60,13 @@ It should look like this:
 You'll now see that the alien and the enemy go at the same speed and doesn't make the game more interesting. Let's fix the enemy laser speed.
 
 ![Enemy Laser Speed](./images/enemyLaserSpeed.png)
+
+### Step 6: Allow Player to Die From Enemy Lasers 
+
+Update the Player Loop Code to the following
+
+![Enemy Laser Player](./images/enemyLaserPlayer.png)
+
 
 ### Step 6: Make it so the player can destroy enemy lasers
 
@@ -92,5 +99,9 @@ Go to the `Player` loop code and update it to be the following:
 
 You will notice that if you play, that you still instantly die. This is because when the laser or enemy hits you, it keeps hitting you until you die. We need to set it up so that the laser or enemy can only hit you once. 
 
-Update your `LevelOne` loop code to the following:
+Update your `Player` loop code to the following:
+
+![Player Lives](./images/playerLivesFinal.png)
+
+
 
