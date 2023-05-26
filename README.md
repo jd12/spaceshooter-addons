@@ -85,6 +85,7 @@ Go to the `LevelOne` room and insert the following code
 
 Go to the `Player` loop code and update it to be the following:
 
+![Player Lives](./images/playerLivesInitial.png)
 
 
 ## Step Three Fix the code
